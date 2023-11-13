@@ -1,0 +1,14 @@
+#command to sort the documents in database in assending order
+db.collection.find().sort({qty:1}) -> this command will sort the data according the qty values
+                                   -> if the qty value is 1 it will sort data in assending order
+
+#command to sort the document in database in decending order
+db.collection.find().sort({qty:-1}) -> qty value is -1 therefore data will sort in decending order
+
+db.collection.find().skip(1) -> skips first document
+db.collection.find().skip(2) -> skips fist-two document 
+
+db.collection.find().limit(1) -> show fist document
+db.collection.find().limit(2) -> show fist-two document
+
+//learn pegination

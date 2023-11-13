@@ -1,0 +1,40 @@
+// CRUD operation
+// C - create
+// R - read[accese some things from database]
+// U - update[update]
+// D - Delete
+
+// Create operations commands
+
+//command to create only one collection
+// db.collection.insertOne(document) -> Insert one documents
+example : 
+db.collectionNameEmployee.insertOne(
+    {
+        "name":"Parth Jadhao",
+        "Role":"full-stack developer"
+    })
+
+//command to insert many collection
+// db.collection.insertMany(documents) -> Insert various documents
+example : 
+db.collectionNameEmployee.insertMany(
+    [
+        {
+            "name":"advait telange",
+            "role":"java-developer"
+        },
+        {
+            "name":"Parth Jadhao",
+            "Role":"full-stack developer"
+        },
+        {
+            "name":"lufy",
+            "Role":"captain"
+        },
+        {
+            "name":"naruto",
+            "Role":"hokage"
+        }
+        
+])

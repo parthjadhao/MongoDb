@@ -1,0 +1,8 @@
+# command to delete every things in the database
+db.collection.deleteMany({})
+
+# command to delete various things in the database
+db.collection.deleteMany({<filter>})
+
+# command will delete fisrt element who satisfy the filter in the database
+db.collection.deleteOne({<filter>})

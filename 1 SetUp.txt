@@ -1,0 +1,13 @@
+#Install mongodb community server
+
+#Install mongoshell(mongosh)
+    steps to setup mongoshell
+    =>download the zip file from mongoDB officail webiste of mongosh
+    =>extract the zip file inside the programFlie/mongoDB/
+    =>copy the path of extracted file bin
+    =>edit systeam variable 
+        1.in systeam variable you will see path
+        2.edit the path
+        3.in path past the copyed path of extracted file bin
+        4.restart the commandPrompt
+    by following all this above steps your mongoshell will be donwloaded succesfully

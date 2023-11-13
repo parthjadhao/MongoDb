@@ -1,0 +1,7 @@
+operators in mongodb
+$lt -> less than
+$gte -> greater than equal too
+$in -> in operators
+
+officail mongoDB documentation on query operators
+https://www.mongodb.com/docs/manual/reference/operator/query/

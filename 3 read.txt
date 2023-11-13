@@ -1,0 +1,15 @@
+read operation commands:
+db.collection.find() -> fetch all the data inside the collection
+db.collection.find({}) -> fetch all the date inside the collection
+db.collection.find({key:value}) -> fetch all the data from the collection whose all key value is same as given
+
+Operators in mongoDB:
+#In Operators in mongoDB
+db.collection.find({keys:{$in[a,d]}})->fetch data whose value of the key is same in the given array
+
+#AND Operators in mongoDB:
+[AND operation are written explicitly]
+db.collection.find(status:"A",qty:{$lt:30}) -> fetch all data whose qty is less than 30 and status is = "A"
+
+#OR Operators in mongoDB:
+db.collection.find({$or:[status:"A",qty"{$lt:30}]})

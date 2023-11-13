@@ -1,0 +1,7 @@
+# MongoDB altas is cloudBased server database which store data in there 
+
+Steps to create mongoDB
+# step-1 : Craete cluster
+# step-2 : create database in cluster
+# step-3 : craete user
+# step-4 : connect the cluster to the mongoDB_compass/VS-code/mongoshell

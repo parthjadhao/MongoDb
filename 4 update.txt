@@ -1,0 +1,39 @@
+commands for update
+
+#command to update only one collection
+db.collection.updateOne(
+
+    //filter
+    {status:"A"}//condtion to update
+
+    //updating
+    $set:{"status":"P"}//updating the data
+
+    //add lastModified date
+    $currentDate:{lastModified:ture}//add lastModified date in collection in currentDate attribute 
+)
+
+#command to update many collection or data
+db.collection.updateMany(
+
+    //filter
+    {status:"A"}//condtion to update
+
+    //updating
+    $set:{"status":"P"}//updating the data
+
+    //add lastModified date
+    $currentDate:{lastModified:ture}//add lastModified date in collection in currentDate attribute 
+)
+
+# command to find document and raeplaced it with give
+db.collection.findOneAndReplace(
+    <filter>
+    {status:"A"},//filter a document whose status = "A"
+    
+    <Replacment>//this will get replaced with filterd document
+    {
+        product:"dimond",
+        status:"B"
+    }
+)
